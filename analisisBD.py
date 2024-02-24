@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Dashboard Ventas 2024", page_icon=":bar_chart:", layout="wide")
 
 
-# LEER ARCHIVO EXCEL
+# LEER ARCHIVO EXCEL o base de datos
 
 @st.cache_data
 def get_data_from_excel():
